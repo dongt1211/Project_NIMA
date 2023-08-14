@@ -1,0 +1,49 @@
+1.Model cls on 3 classes: High, Low, Medium
++ Acc on test: 94.25%
++  precision    recall  f1-score   support
+
+        High       0.10      0.04      0.05       624
+         Low       0.36      0.33      0.34      1623
+      Medium       0.97      0.98      0.97     47578
+
+    accuracy                           0.94     49825
+   macro avg       0.47      0.45      0.46     49825
+weighted avg       0.93      0.94      0.94     49825
+
+
+
+      High:[[   23,     2,   599],
+       Low: [    0,   541,  1082],
+      Medium[  201,   980, 46397]])
+  
+ => EfficientNetB4
+
+2. Model cls on 2 classes: Medium, LowHigh (EfficientNetB4)
+Test loss: 0.45537
+Test accuracy: 94.43%
+           precision    recall  f1-score   support
+
+     LowHigh       SS0.30      0.20      0.24      2194
+      Medium       0.96      0.98      0.97     47633
+
+    accuracy                           0.94     49827
+   macro avg       0.63      0.59      0.61     49827
+weighted avg       0.93      0.94      0.94     49827
+
+array([[  448,  1746],
+       [ 1029, 46604]])
+       
+3. Classify 2 classes: Low and High (EfficientnetB4)
+Test Loss: 0.25328
+Test Accuracy: 93.45%
+          precision    recall  f1-score   support
+
+        High       0.92      0.85      0.88       636
+         Low       0.94      0.97      0.95      1564
+
+    accuracy                           0.93      2200
+   macro avg       0.93      0.91      0.92      2200
+weighted avg       0.93      0.93      0.93      2200
+
+array([[ 541,   95],
+       [  49, 1515]])

@@ -1,0 +1,26 @@
+EMD on Low:  
+             0.05380471 (epoch=8) (backbone.trainable=false) (r=2)
+             0.036437254 (r=1)
+             0.033814643
+             MSE Loss on Low:  0.033814643
+             Linear correlation coefficient (r): 0.03113305411339719
+         Spearman's rank correlation coefficient (ρ): -0.009314904288848756
+EMD on High:  
+              0.03876791  (epoch=19) (backbone.trainable=false) (r=2)
+              0.025396233 (r=1)
+             MSE Loss on High:  0.025396233
+             Linear correlation coefficient (r): 0.0799657593426994
+             Spearman's rank correlation coefficient (ρ): 0.06889172230659558
+EMD on Medium:  
+                0.088675916 (epoch=4) (backbone.trainable=false)  (Need more epoch)
+                0.08908966  (epoch=4) (backbone.trainable=false)
+                0.057935234
+                MSE Loss on Medium:  0.057935234
+                
+                
+                Linear correlation coefficient (r): 0.2709713136740558
+                 Spearman's rank correlation coefficient (ρ): 0.26728196385814085
+                            
+=> Both are EfficientNetB2              
+              
+
